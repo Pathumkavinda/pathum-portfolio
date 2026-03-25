@@ -22,7 +22,7 @@ export default function ProjectList({ project }) {
       <div className="flex flex-col gap-5">
         <div className="flex flex-col gap-3">
           <div className="text-xl font-semibold">{project.title}</div>
-          <p className="text-gray-400">{project.description}</p>
+          <p className="text-gray-400 text-justify">{project.description}</p>
         </div>
 
         {/* Tech Stack */}

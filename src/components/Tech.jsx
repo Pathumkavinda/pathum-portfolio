@@ -13,8 +13,7 @@ import TechList from "./TechList";
 import {
   SiExpress,
   SiPostgresql,
-  SiSpringboot,
-  SiSupabase,
+  SiNextdotjs,
   SiTailwindcss,
 } from "react-icons/si";
 
@@ -65,29 +64,17 @@ export default function Tech() {
         </TechList>
         <TechList>
           {" "}
-          <SiSpringboot
-            className={`${iconStyle} text-green-500`}
-            title="Spring Boot"
-          />
-        </TechList>
-        <TechList>
-          {" "}
-          <FaDatabase className={`${iconStyle} text-gray-500`} title="SQL" />
-        </TechList>
-        <TechList>
-          {" "}
           <SiPostgresql
             className={`${iconStyle} text-sky-700`}
             title="PostgreSQL"
           />
         </TechList>
         <TechList>
-          {" "}
-          <SiSupabase
-            className={`${iconStyle} text-green-600`}
-            title="Supabase"
-          />
-        </TechList>
+      <SiNextdotjs
+    className={`${iconStyle} text-black dark:text-white`}
+    title="Next.js"
+      />
+      </TechList>
         <div></div>
       </div>
     </div>

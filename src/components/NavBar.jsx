@@ -17,7 +17,7 @@ export default function NavBar() {
         to="/"
         className="bg-gradient-to-r from-orange-400 to-purple-600 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100"
       >
-        Nadila
+        Pathum
       </Link>
       <ul className="hidden md:flex gap-10">
         <ScrollLinks to="home">Home</ScrollLinks>
